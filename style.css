@@ -192,3 +192,11 @@ a {
     text-decoration: none;
     color: #b1b1b1;
 }
+
+a:hover {
+    border-bottom: 1.5px solid #b1b1b1;
+}
+
+button:hover {
+    background-color: #235199;
+}
