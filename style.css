@@ -133,7 +133,6 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    padding-right: 140px;
 }
 .cta-form-left :first-child {
     font-size: 2rem;
