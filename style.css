@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+    font-size: px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 25%;
+}
+
+.splash {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    padding: 60px 0px;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.splash p {
+    color: #b1b1b1;
+}
+
+.splash-left {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.splash-right img {
+    width: 22rem;
+    height: auto;
+}
+
+.splash button {
+    margin-top: 20px;
+    background-color: #3882f6;
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1rem;
+    width: 40%;
+}
+
+.info {
+    background-color: white;
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info img {
+    width: 140px;
+    height: auto;
+    border: solid #255ab1 4px;
+    border-radius: 8px;
+}
+.info-imgs {
+    margin-top: 15px;
+    display: flex;
+    gap: 30px;
+    width: 50%;
+}
+
+.info-imgs div {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* background-color: black; */
+}
+.info-imgs p {
+    color: #646464;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 80px 0;
+}
+
+.quote p {
+    padding: 0px 30%;
+    font-size: 30px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.cta {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta div {
+    background-color: #3882f6;
+    padding: 25px 20px;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+.cta-form-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cta-form-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header > ul {
+    display: flex;
+    gap: 12px;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bolder;
+}
+h4 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #b1b1b1;
+}
