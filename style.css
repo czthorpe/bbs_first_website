@@ -44,9 +44,12 @@ body {
     padding: 60px 0px;
     justify-content: center;
     gap: 4rem;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .splash p {
+    margin-top: 10px;
     color: #b1b1b1;
 }
 
@@ -104,15 +107,18 @@ body {
 }
 
 .quote {
-    background-color: #e5e7eb;
-    padding: 80px 0;
+    background-color: #1f2937;
+    padding: 60px 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .quote p {
     padding: 0px 30%;
     font-size: 30px;
     font-style: italic;
-    color: #1f2937;
+    color: white;
+    text-shadow: 0px 0px 15px #0c0c6f;
 }
 
 .cta {
@@ -123,9 +129,10 @@ body {
 
 .cta-form {
     background-color: #3882f6;
-    padding: 45px 20px;
+    padding: 45px 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 80px;
     width: 60%;
     border-radius: 6px;
 }
