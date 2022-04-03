@@ -35,14 +35,14 @@ for (let turtle of turtles) {
         // turtle.style.transform = "translateY(" + (i += (Math.random() * Math.random() / 6)) + "in)";
 
         if (evenOrOdd % 2 == 0) {
-            if (i >= 3) {
+            if (i >= 4.5) {
                 evenOrOdd++;
             }
             turtle.style.transform = "translateY(" + (i += (Math.random() * Math.random() / 5)) + "in)";
         }
         else if (evenOrOdd % 2 == 1) {
 
-            if (i <= -3) { evenOrOdd++ } {
+            if (i <= -3.5) { evenOrOdd++ } {
                 turtle.style.transform = "translateY(" + (i -= (Math.random() * Math.random() / 5)) + "in)";
 
             }
