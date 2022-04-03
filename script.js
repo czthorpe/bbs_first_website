@@ -49,7 +49,7 @@ for (let turtle of turtles) {
 
         }
 
-    }, 5)
+    }, 4)
 }
 
 
