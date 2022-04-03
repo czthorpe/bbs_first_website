@@ -22,14 +22,14 @@ for (let turtle of turtles) {
     // turtle.style.transform = "translateY(" + (Math.random() * 10) + "in)";
 
     turtle.addEventListener('click', e => {
-        info.removeEventListener('click', didNotClick);
+        // info.removeEventListener('click', didNotClick);
         alert("you clicked the turtle!");
     })
 
     let evenOrOdd = 1;
     let i = 0;
     setInterval(function () {
-        info.addEventListener('click', didNotClick);
+        // info.addEventListener('click', didNotClick);
         // if (i >= 3) { i = -3 }
         // // turtle.style.transform = "translateY(" + (i += 0.1) + "in)";
         // turtle.style.transform = "translateY(" + (i += (Math.random() * Math.random() / 6)) + "in)";
